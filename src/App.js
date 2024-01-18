@@ -28,7 +28,7 @@ function App() {
       <div className="max-w-xl mx-auto p-5 flex flex-col justify-center h-screen">
         <article className="soft-red p-8 rounded-2xl shadow flex items-center justify-between">
           <h2 className="font-bold text-white text-3xl">
-            <span>My balance</span>
+            <span className="block text-base font-normal">My balance</span>
             $921.48
           </h2>
           <img src={logo} alt="" />
@@ -38,14 +38,19 @@ function App() {
             <h1 className="font-bold text-2xl md:text-3xl mb-5">Spending - Last 7 days</h1>
             <Bar data={state} />
           </article>
-          <article className="p-8 border-t border-slate-200 flex items-center justify-between">
+          <article className="pt-8 border-t border-slate-200 flex items-center justify-between">
             <h2 className="font-bold text-4xl">
-              <span className="text-base font-normal black opacity-75">Total this month</span>
-              %479.33
+              <span className="text-base font-normal block opacity-75">
+                Total this month
+              </span>
+              $478.33
             </h2>
-            <h3 className="flex items-end  justify-end flex-col text-base font-bold">
+
+            <h3 className="flex items-end justify-end flex-col text-base font-bold">
               +2.4%
-              <span className="font-normal block opacity-75">from last month</span>
+              <span className="font-normal block opacity-75">
+                from last month
+              </span>
             </h3>
           </article>
         </article>
