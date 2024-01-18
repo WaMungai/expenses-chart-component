@@ -12,8 +12,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #f8e9dd;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1,h2,h3{
+  color:hsl(25, 47%, 15%);
+}
+p{
+  color: hsl(28, 10%, 53%);
+}
+.soft-red{
+  background-color: hsl(10, 79%,65%);
+}
+canvas:hover{
+  cursor: pointer;
 }

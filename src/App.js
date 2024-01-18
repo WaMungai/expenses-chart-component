@@ -13,7 +13,7 @@ ChartJS.register(CategoryScale, LinearScale,BarElement, Title, Tooltip)
 
 function App() {
   const state = {
-    labels: ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+    labels: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
     datasets: [
       {
         label: "",
